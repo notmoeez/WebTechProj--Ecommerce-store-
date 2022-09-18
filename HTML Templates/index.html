@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Senpai</title>
+
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+
+    <!-- Bootstrap cdn link for css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- OWL carousel cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
+
+
+    <!-- Font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+
+    <!-- Custom CSS file link -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<!-- header -->
+<header id="header">
+    <div class="strip d-flex justify-content-between px-4 py-1 bg-light">
+        <p class="font-rale font-size-12 text-black-50 m-0">UMT, Johar Town, Lahore (922) 870-3293</p>
+        <div class="font-rale font-size-14">
+            <a href="#" class="px-3 border-end border-start text-dark">Login</a>
+            <a href="#" class="px-3 border-end text-dark">Wishlist(0)</a>
+        </div>
+    </div>
+
+    <!-- primary nav -->
+    <nav class="navbar navbar-expand-lg navbar-dark color-secondary-bg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Mobile Senpai</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav m-auto font-rubik">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">On Sale</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Category <i class="fa-solid fa-chevron-down"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Products <i class="fa-solid fa-chevron-down"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Coming Soon</a>
+                    </li>
+
+                </ul>
+                <form action="#" class="font-size-14 font-rale">
+                    <a href="" class="py-2 rounded-pill color-primary-bg">
+                        <span class="font-size-16 px-2 text-white"><i class="fas fa-shopping-cart"></i></span>
+                        <span class="px-3 py-2 rounded-pill text-dark bg-light">0</span>
+                    </a>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- primary nav -->
+
+</header>
+<!-- header -->
+
+<!-- main body-->
+<main id="main-site">
+
+    <!-- carousel -->
+
+    <!-- <section id="banner-area">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img src="./images/banner_1.webp" alt="">
+            </div>
+            <div class="item">
+                <img src="./images/banner_4.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="./images/banner_3.jpg" alt="">
+            </div>
+        </div>
+    </section> -->
+
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./images/bg1.png" class="d-block w-100" alt="...">
+
+            </div>
+            <div class="carousel-item">
+                <img src="./images/bg2.png" class="d-block w-100" alt="...">
+
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- carousel -->
+
+    <!-- Top Sale -->
+    <section id="top-sale">
+        <div class="container py-5">
+            <h4 class="font-rubik font-size-20">Top Sale</h4>
+            <hr>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card" style="width: 18rem;">
+                        <a href="#">
+
+                            <img src="./images/p1.png" class="card-img-top" alt="...">
+                        </a>
+                        <div class="card-body text-center">
+                            <h4 class="card-text">Samsung</h4>
+                            <div class="rating text-warning font-size-12">
+
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="far fa-star" aria-hidden="true"></i></span>
+                            </div>
+                            <div class="price py-2">
+                                <span class="card-text">$120</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="width: 18rem;">
+                        <a href="#">
+
+                            <img src="./images/p2.png" class="card-img-top" alt="...">
+                        </a>
+                        <div class="card-body text-center">
+                            <h4 class="card-text">Huawei</h4>
+                            <div class="rating text-warning font-size-12">
+
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="far fa-star" aria-hidden="true"></i></span>
+                            </div>
+                            <div class="price py-2">
+                                <span class="card-text">$120</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="width: 18rem;">
+                        <a href="#">
+
+                            <img src="./images/p3.png" class="card-img-top" alt="...">
+                        </a>
+                        <div class="card-body text-center">
+                            <h4 class="card-text">Redmi Plus</h4>
+                            <div class="rating text-warning font-size-12">
+
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="far fa-star" aria-hidden="true"></i></span>
+                            </div>
+                            <div class="price py-2">
+                                <span class="card-text">$120</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="width: 18rem;">
+                        <a href="#">
+
+                            <img src="./images/p4.png" class="card-img-top" alt="...">
+                        </a>
+                        <div class="card-body text-center">
+                            <h4 class="card-text">Redmi Pro</h4>
+                            <div class="rating text-warning font-size-12">
+
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="far fa-star" aria-hidden="true"></i></span>
+                            </div>
+                            <div class="price py-2">
+                                <span class="card-text">$120</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Top Sale -->
+
+    <!-- Special Price -->
+    <section id="special-price">
+        <div class="container">
+            <h4 class="font-rubik font-size-20">
+                Special Price
+            </h4>
+            <div id="filters" class="button-group text-end font-baloo font-size-16">
+                <button class="btn is-checked" data-filter="*">
+                    All Brands Mobile
+                </button>
+                <button class="btn" data-filter=".Samsung">
+                    Samsung
+                </button>
+                <button class="btn" data-filter=".Redmi">
+                    Redmi
+                </button>
+                <button class="btn" data-filter=".Apple">
+                    Apple                
+                </button>
+            </div>
+
+            <div class="grid">
+                <div class="grid-item Apple border">
+                    <div class="card" style="width: 18rem;">
+                        <a href="#">
+
+                            <img src="./images/p6.png" class="card-img-top" alt="...">
+                        </a>
+                        <div class="card-body text-center">
+                            <h4 class="card-text">iPhone XS</h4>
+                            <div class="rating text-warning font-size-12">
+
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="far fa-star" aria-hidden="true"></i></span>
+                            </div>
+                            <div class="price py-2">
+                                <span class="card-text">$1000</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item Samsung border">
+                    <div class="card" style="width: 18rem;">
+                        <a href="#">
+
+                            <img src="./images/p1.png" class="card-img-top" alt="...">
+                        </a>
+                        <div class="card-body text-center">
+                            <h4 class="card-text">Samsung Galaxy s3</h4>
+                            <div class="rating text-warning font-size-12">
+
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="far fa-star" aria-hidden="true"></i></span>
+                            </div>
+                            <div class="price py-2">
+                                <span class="card-text">$300</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item Redmi border">
+                    <div class="card" style="width: 18rem;">
+                        <a href="#">
+
+                            <img src="./images/p3.png" class="card-img-top" alt="...">
+                        </a>
+                        <div class="card-body text-center">
+                            <h4 class="card-text">Redmi Pro</h4>
+                            <div class="rating text-warning font-size-12">
+
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="far fa-star" aria-hidden="true"></i></span>
+                            </div>
+                            <div class="price py-2">
+                                <span class="card-text">$400</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item Redmi border">
+                    <div class="card" style="width: 18rem;">
+                        <a href="#">
+
+                            <img src="./images/p4.png" class="card-img-top" alt="...">
+                        </a>
+                        <div class="card-body text-center">
+                            <h4 class="card-text">Redmi Plus</h4>
+                            <div class="rating text-warning font-size-12">
+
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="far fa-star" aria-hidden="true"></i></span>
+                            </div>
+                            <div class="price py-2">
+                                <span class="card-text">$499</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item Redmi border">
+                    <div class="card" style="width: 18rem;">
+                        <a href="#">
+
+                            <img src="./images/p5.png" class="card-img-top" alt="...">
+                        </a>
+                        <div class="card-body text-center">
+                            <h4 class="card-text">Redmi X30</h4>
+                            <div class="rating text-warning font-size-12">
+
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="far fa-star" aria-hidden="true"></i></span>
+                            </div>
+                            <div class="price py-2">
+                                <span class="card-text">$549</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item Apple border">
+                    <div class="card" style="width: 18rem;">
+                        <a href="#">
+
+                            <img src="./images/p6.png" class="card-img-top" alt="...">
+                        </a>
+                        <div class="card-body text-center">
+                            <h4 class="card-text">iPhone XS</h4>
+                            <div class="rating text-warning font-size-12">
+
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="far fa-star" aria-hidden="true"></i></span>
+                            </div>
+                            <div class="price py-2">
+                                <span class="card-text">$1000</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item Samsung border">
+                    <div class="card" style="width: 18rem;">
+                        <a href="#">
+
+                            <img src="./images/p1.png" class="card-img-top" alt="...">
+                        </a>
+                        <div class="card-body text-center">
+                            <h4 class="card-text">Samsung Galaxy S6</h4>
+                            <div class="rating text-warning font-size-12">
+
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="far fa-star" aria-hidden="true"></i></span>
+                            </div>
+                            <div class="price py-2">
+                                <span class="card-text">$350</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item Samsung border">
+                    <div class="card" style="width: 18rem;">
+                        <a href="#">
+
+                            <img src="./images/p1.png" class="card-img-top" alt="...">
+                        </a>
+                        <div class="card-body text-center">
+                            <h4 class="card-text">Samsung Galaxy S7</h4>
+                            <div class="rating text-warning font-size-12">
+
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="far fa-star" aria-hidden="true"></i></span>
+                            </div>
+                            <div class="price py-2">
+                                <span class="card-text">$399</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- <div class="wrapper">
+                <div id="search-container">
+                    <input type="search" id="search-input" placeholder="Search product name here.." />
+                    <button id="search">Search</button>
+                </div>
+                <div id="buttons">
+                    <button class="button-value" onclick="filterProduct('All')">All</button>
+                    <button class="button-value" onclick="filterProduct('Apple')">
+                    Apple
+                  </button>
+                    <button class="button-value" onclick="filterProduct('Samsung')">
+                    Samsung
+                  </button>
+                    <button class="button-value" onclick="filterProduct('Redmi')">
+                    Redmi
+                  </button>
+                    <button class="button-value" onclick="filterProduct('Huawei')">
+                    Huawei
+                  </button>
+                </div>
+
+
+                <div id="products"></div>
+
+            </div> -->
+
+
+        </div>
+    </section>
+    <!-- Special Price -->
+
+    <!-- Phone Ads -->
+    <section id="banner_adds">
+        <div class="container py-5 text-center">
+            <img src="./images/ad1.jpg" alt="banner1" class="img-fluid">
+            <img src="./images/ad1.jpg" alt="banner2" class="img-fluid">
+        </div>
+    </section>
+    <!-- Phone Ads -->
+
+    <!-- New Phones -->
+    <section id="new-phones">
+        <div class="container">
+            <h4 class="font-rubik font-size-20">New Phones</h4>
+            <hr>
+            <div class="owl-carousel owl-theme">
+                <div class="item py2 bg-light">
+                    <div class="product font-rale">
+                        <a href="#"><img src="./images/p1.png" alt="" class="img-fluid"></a>
+                        <div class="text-center">
+                            <h6>Samsung Galaxy 10</h6>
+                            <div class="rating text-warning font-size-12">
+
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="far fa-star" aria-hidden="true"></i></span>
+                            </div>
+                            <div class="price py-2">
+                                <span class="card-text">$120</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item py2 bg-light">
+                    <div class="product font-rale">
+                        <a href="#"><img src="./images/p2.png" alt="" class="img-fluid"></a>
+                        <div class="text-center">
+                            <h6>Redmi Pro</h6>
+                            <div class="rating text-warning font-size-12">
+
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="far fa-star" aria-hidden="true"></i></span>
+                            </div>
+                            <div class="price py-2">
+                                <span class="card-text">$120</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item py2 bg-light">
+                    <div class="product font-rale">
+                        <a href="#"><img src="./images/p3.png" alt="" class="img-fluid"></a>
+                        <div class="text-center">
+                            <h6>Redmi Plus</h6>
+                            <div class="rating text-warning font-size-12">
+
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="far fa-star" aria-hidden="true"></i></span>
+                            </div>
+                            <div class="price py-2">
+                                <span class="card-text">$120</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item py2 bg-light">
+                    <div class="product font-rale">
+                        <a href="#"><img src="./images/p4.png" alt="" class="img-fluid"></a>
+                        <div class="text-center">
+                            <h6>Redmi X30</h6>
+                            <div class="rating text-warning font-size-12">
+
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="far fa-star" aria-hidden="true"></i></span>
+                            </div>
+                            <div class="price py-2">
+                                <span class="card-text">$120</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item py2 bg-light">
+                    <div class="product font-rale">
+                        <a href="#"><img src="./images/p5.png" alt="" class="img-fluid"></a>
+                        <div class="text-center">
+                            <h6>Xiaomi P90</h6>
+                            <div class="rating text-warning font-size-12">
+
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="far fa-star" aria-hidden="true"></i></span>
+                            </div>
+                            <div class="price py-2">
+                                <span class="card-text">$120</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item py2 bg-light">
+                    <div class="product font-rale">
+                        <a href="#"><img src="./images/p6.png" alt="" class="img-fluid"></a>
+                        <div class="text-center">
+                            <h6>iPhone XS</h6>
+                            <div class="rating text-warning font-size-12">
+
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="fas fa-star" aria-hidden="true"></i></span>
+                                <span class="card-text"><i class="far fa-star" aria-hidden="true"></i></span>
+                            </div>
+                            <div class="price py-2">
+                                <span class="card-text">$1000</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- New Phones -->
+
+    <!-- blogs -->
+    <section id="blog-section">
+
+    </section>
+    <!-- blogs -->
+
+</main>
+<!-- main body-->
+
+<!-- footer -->
+<footer class="bg-dark text-white py-5 mt-5" id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-12">
+                <h4 class="font-rubik font-size-20">Mobile Senpai</h4>
+                <p class="font-size-14 font-rale text-white-50">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore, fugiat.</p>
+            </div>
+            <div class="col-lg-4 col-12">
+                <h4 class="font-rubik font-size-20">Newsletter</h4>
+                <form action="" class="form-row">
+                    <div class="col">
+                        <div class="input-group mb-3">
+                            <input type="email" class="form-control" placeholder="Email*" name="newsletter">
+                            <button class="btn btn-primary" type="submit">Subsrcibe</button>
+                        </div>
+                    </div>
+                    <div class="col">
+
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-2 col-12">
+                <h4 class="font-rubik font-size-20">Information</h4>
+                <div class="d-flex flex-column flex-wrap">
+                    <a href="#" class="font-rale font-size-14 text-white-50 pb-1">About Us</a>
+                    <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Delivery Information</a>
+                    <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Privacy Policy</a>
+                    <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Terms & Conditions</a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-12">
+                <h4 class="font-rubik font-size-20">Account</h4>
+                <div class="d-flex flex-column flex-wrap">
+                    <a href="#" class="font-rale font-size-14 text-white-50 pb-1">My Account</a>
+                    <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Order History</a>
+                    <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Wishlist</a>
+                    <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Newsletter</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="copyright text-center bg-dark text-white py-2">
+    <p class="font-rale font-size-14">Mobile Senpai &copy; Copyrights 2022. Design By <a href="#" class="color-second">Lazy Developers</a></p>
+</div>
+<!-- footer -->
+
+<body>
+
+
+    <!-- Bootstrap cdn link for js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Font Awesome Kit -->
+    <script src="https://kit.fontawesome.com/4c7b5d3329.js" crossorigin="anonymous"></script>
+
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Isotope cdn link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>

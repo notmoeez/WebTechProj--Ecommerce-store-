@@ -1,0 +1,11 @@
+#top-sale {
+    .card a {
+        overflow: hidden;
+    }
+    .card img {
+        transition: transform .5s ease;
+    }
+    .card img:hover {
+        transform: scale(1.1);
+    }
+}
